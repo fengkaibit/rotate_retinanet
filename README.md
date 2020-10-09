@@ -4,7 +4,7 @@ rotate retinanet
 # dataset
 数据集使用UCAS-AOD数据集，包含plane和car两个类别的旋转框标注。
 将plane和car两个类别的图片和txt标注按照voc数据集格式添加到JPEGImages和Annotations文件夹中。
-使用txt2xml生成voc格式的xml标注。
+使用txt2xml.py生成voc格式的xml标注。
 
 # 编译iou和nms
 cd utils/cython_utils
