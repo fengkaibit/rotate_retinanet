@@ -8,9 +8,11 @@ rotate retinanet
 
 # 编译iou和nms
 cd utils/cython_utils
+
  python3 setup.py build_ext --inplace
 
 cd utils/rotate_cython_utils
+
  python3 setup.py build_ext --inplace
  
  # train
